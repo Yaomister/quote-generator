@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  font-family: "Quicksand", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  background: #625ac4;
+  width: 800px;
+  border-radius: 15px;
+}
+
+.quote {
+  padding: 60px 110px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-family: "playfair display", serif;
+}
+
+.line {
+  width: 680px;
+  height: 1.5px;
+  background: white;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.author {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  gap: 40px;
+}
+
+.icons img {
+  cursor: pointer;
+  height: 36px;
+}
